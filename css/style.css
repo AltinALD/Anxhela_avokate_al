@@ -186,7 +186,7 @@ ul { list-style: none; }
   height: 44px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 15%;
   border: 2px solid var(--gold);
   flex-shrink: 0;
 }
@@ -297,10 +297,10 @@ ul { list-style: none; }
 }
 .hero__portrait img {
   width: min(360px, 100%);
-  aspect-ratio: 1;
+  aspect-ratio: 3/4;
   object-fit: cover;
-  object-position: center top;
-  border-radius: 50%;
+  object-position: center 10%;
+  border-radius: var(--radius-lg);
   border: 3px solid var(--gold);
   box-shadow: 0 0 0 12px rgba(201, 168, 76, 0.12), var(--shadow-lg);
 }
@@ -369,7 +369,7 @@ ul { list-style: none; }
   width: 100%;
   aspect-ratio: 3/4;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 10%;
   border-radius: var(--radius-lg);
   display: block;
   box-shadow: var(--shadow-lg);
